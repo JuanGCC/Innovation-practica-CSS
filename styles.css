@@ -23,8 +23,9 @@ header {
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    background-color: var(--Header-background);
+    /* background-color: var(--Header-background); */
     background-position: center right;
+    background: linear-gradient(to left, #99e7f58f, #99e7f59f 45%, #fff 47%, #ffffff 122%);
 }
 
 .HeaderTag {
