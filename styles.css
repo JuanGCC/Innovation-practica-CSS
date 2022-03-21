@@ -68,11 +68,11 @@ li>a {
 }
 
 .TituloLogo {
-    color: var(Header-Title-Color);
-    font-size: 20px;
+    color: var(--Section-Title-Color);
+    font-size: 35px;
     font-weight: bold;
     text-decoration: solid;
-    margin-left: 40px;
+    margin-left: 10%;
 }
 
 .BotonHeader {
