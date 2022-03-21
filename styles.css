@@ -96,13 +96,7 @@ li>a {
     font-family: Arial, Helvetica, Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.First-Section {
-    background-image: url("./nurseVaccine.jpg");
-    background-repeat: no-repeat;
-    background-position: center right;
-    background-size: 500px;
-    width: 100%;
-}
+
 
 .Second-Section {
     display: flex;
@@ -119,35 +113,8 @@ li>a {
     filter: grayscale(100%);
 }
 
-.Container-small-text {
-    display: flex;
-    justify-content: flex-start;
-    width: 50%;
-    justify-content: center;
-}
 
-.small-text {
-    display: flex;
-    align-items: center;
-    font-size: 15px;
-    font-weight: bold;
-    font-family: sans-serif;
-    color: var(--Small-text);
-    padding: 0 30px;
-}
 
-.small-text > span {
-    color: var(--Icons-color);
-    background-color: #fff2cca6;
-    padding: 5px 5px;
-    margin: 0 12px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
-}
-
-.Container-First-Section > p {
-    font-size: 15px;
-    font-family: sans-serif;
-}
 .TextoPrincipal{
     color:#79869c;
 }
@@ -195,6 +162,31 @@ li>a {
     /* background-size: 700px; */
     width: 100%;
 }
+
+/* .First-Section {
+    background-image: url("./doctor.jpg");
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 500px;
+    width: 100%;
+    height: 100%;
+} */
+
+.Second-Section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0.2;
+}
+
+.Second-Section>div {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+    filter: grayscale(100%);
+}
+
 .Container-small-text {
     display: flex;
     width: 100%;
@@ -227,21 +219,47 @@ li>a {
 }
 
 .Container-First-Section {
-    width: 50%;
+    width: 100%;
     display: flex;
-    flex-direction: column;
     align-items: center;
     padding: 10% 0px 1.5%;
 }
 
-.Container-First-Section>p {
+.Subcontainer-First-Section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+}
+
+.Subcontainer-First-Section>p {
     font-size: 18px;
     font-family: Arial, Helvetica, Verdana, Geneva, Tahoma, sans-serif;
-    width: 50%;
+    width: 65%;
     text-align: initial;
     line-height: 1.6;
     font-weight: bold;
     color: var(--Header-Subtitle-Color);
+}
+
+.imagen-section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen-section > img {
+    vertical-align: middle;
+    border-style: none;
+    position: absolute;
+    width: 750px;
+    height: 650px;
+    opacity: 80%;
+    top: 10%;
+    z-index: -1;
 }
 
 .Subcontainer-small-text {
@@ -288,7 +306,7 @@ li>a {
     font-family: sans-serif;
     width: 70%;
     color: var(--Header-Subtitle-Color);
-} 
+}
 
 .SubOption {
     display: flex;
@@ -315,11 +333,12 @@ li>a {
     box-shadow: rgb(0 0 0 / 10%) 0px 20px 25px -5px, rgb(0 0 0 / 4%) 0px 10px 10px -5px;
 }
 
-.SubOption >p {
+.SubOption>p {
     margin-top: unset;
     margin-bottom: unset;
 }
-.Container-Options > .BotonHeader {
+
+.Container-Options>.BotonHeader {
     display: flex;
     justify-content: center;
     align-items: center;
