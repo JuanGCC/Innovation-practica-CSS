@@ -1,0 +1,196 @@
+:root {
+
+    /* BACKGROUND COLOR */
+    --Header-color: rgba(0, 102, 255, 0.151);
+    --Header-background: #e6f4fc;
+
+    /* TEXT COLOR */
+    --Header-Title-Color: #3858d6;
+    --Header-Subtitle-Color: #79869c;
+    --Section-Title-Color: #1f3e72;
+    --Small-text: #1d2a6f;
+
+    /* ELEMENTS COLORS */
+
+    /* ICONS COLORS */
+    --Icons-color: #ffe81c;
+
+}
+
+header {
+    display: flex;
+    height: auto;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--Header-background);
+    background-position: center right;
+}
+
+.HeaderTag {
+    /* width: 80%; */
+    margin: 0 auto;
+    background-color: var(--Header-background);
+}
+
+nav {
+    width: 70%;
+    text-align: center;
+
+}
+
+nav>ul>li {
+    display: inline-block;
+    text-align: center;
+    margin: 14px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: var(--Header-Subtitle-Color);
+}
+
+.actions {
+    width: 15%;
+}
+
+.actions * {
+    padding: 10px;
+}
+
+li>a {
+    color: inherit;
+    text-decoration: none !important;
+}
+
+#logo {
+    width: 15%;
+
+}
+
+.TituloLogo {
+    color: var(Header-Title-Color);
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: solid;
+    margin-left: 40px;
+}
+
+.BotonHeader {
+    color: white;
+    padding: 14px;
+    background-color: rgba(0, 38, 255, 0.822);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 6px;
+    font-size: 16px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.Title {
+    color: var(--Section-Title-Color);
+    font-family: sans-serif;
+    font-size: 54px;
+    text-align: left;
+}
+.SubTitle{
+    color: var(--Section-Title-Color);
+    font-family: Arial, Helvetica, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.First-Section {
+    background-image: url("./nurseVaccine.jpg");
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 500px;
+    width: 100%;
+}
+
+.Second-Section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    opacity: 0.2;
+}
+
+.Second-Section>div {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    align-items: center;
+    filter: grayscale(100%);
+}
+
+.Container-small-text {
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    justify-content: center;
+}
+
+.small-text {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: var(--Small-text);
+    padding: 0 30px;
+}
+
+.small-text > span {
+    color: var(--Icons-color);
+    background-color: #fff2cca6;
+    padding: 5px 5px;
+    margin: 0 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.Container-First-Section > p {
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.TextoPrincipal{
+    color:#79869c;
+}
+.card-body{
+    padding-top: 5px !important;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.IconosCartas > span{
+    color: rgba(0, 0, 255, 0.747);
+    background-color: #cccfff63;
+    padding: 5px 5px;
+    margin: 0 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+.card{
+    border: 0 !important;
+}
+.NormalText{
+    color: var(--Section-Title-Color);
+}
+.BotonCard{
+    background-color: #cccfff63 !important;
+    padding: auto 10px auto 10px !important;
+    color:blue !important;
+    
+}
+.EmergencyContact{
+    background-image: url("./telephone-Spanish.jpg");
+    background-repeat: no-repeat;
+    background-position: center right;
+    background-size: 500px;
+    width: 100%;
+}
+.Listado{
+    padding-bottom: 0 !important;
+}
+.TamañoListado{
+    font-size: 15px !important;
+
+}
+.personThinking{
+    background-image: url("./personthinking.jpg");
+    background-repeat: no-repeat;
+    background-position: center right;
+    /* background-size: 700px; */
+    width: 100%;
+}
