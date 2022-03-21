@@ -194,3 +194,135 @@ li>a {
     /* background-size: 700px; */
     width: 100%;
 }
+.Container-small-text {
+    display: flex;
+    width: 100%;
+    padding: 4% 0;
+    column-gap: 5rem;
+    justify-content: center;
+}
+
+.small-text {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: var(--Small-text);
+}
+
+.small-text>span {
+    color: var(--Icons-color);
+    background-color: #fff2cca6;
+    padding: 5px 5px;
+    border-radius: 5px;
+    margin: 0 12px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.small-text>p {
+    margin-top: unset;
+    margin-bottom: unset;
+}
+
+.Container-First-Section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10% 0px 1.5%;
+}
+
+.Container-First-Section>p {
+    font-size: 18px;
+    font-family: Arial, Helvetica, Verdana, Geneva, Tahoma, sans-serif;
+    width: 50%;
+    text-align: initial;
+    line-height: 1.6;
+    font-weight: bold;
+    color: var(--Header-Subtitle-Color);
+}
+
+.Subcontainer-small-text {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: var(--Small-text);
+}
+
+.Subcontainer-small-text>p {
+    margin-top: unset;
+    margin-bottom: unset;
+}
+
+/* .Subcontainer-small-text>span {
+    font-size: 18px;
+    background-color: #3f51b554;
+    padding: 5px 5px;
+    margin: 0 12px;
+    border-radius: 5px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 20px 25px -5px, rgb(0 0 0 / 4%) 0px 10px 10px -5px;
+} */
+
+.Container-Options {
+    display: flex;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 130px;
+    margin: 0 18%;
+    padding: 2%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.Option {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    width: 70%;
+    color: var(--Header-Subtitle-Color);
+} 
+
+.SubOption {
+    display: flex;
+    align-items: center;
+}
+
+.Container-lbl {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    padding: 2% 23%;
+    font-size: 20px;
+    color: var(--Section-Title-Color);
+    font-weight: bold;
+}
+
+.material-icons {
+    font-size: 16px;
+    background-color: #3f51b554;
+    color: var(--Small-text);
+    padding: 5px 5px;
+    margin: 0 12px;
+    border-radius: 5px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 20px 25px -5px, rgb(0 0 0 / 4%) 0px 10px 10px -5px;
+}
+
+.SubOption >p {
+    margin-top: unset;
+    margin-bottom: unset;
+}
+.Container-Options > .BotonHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 30%;
+    border: 1 px solid var(--Small-text);
+}

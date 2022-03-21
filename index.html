@@ -17,25 +17,21 @@
 </head>
 
 <body>
-  <div class="HeaderTag">
-    <header class="HeaderTag container d-flex justify-content-around">
-    
-      <p class="TituloLogo">Vaccination</p>
-      
-      <nav>
-        <ul>
-          <li><a href="">Database</a></li>
-          <li><a href="">Education</a></li>
-          <li><a href="">News</a> </li>
-          <li><a href="">Regulation</a> </li>
-          <li><a href="" class="BotonHeader">Hoax Buster</a> </li>
-  
-        </ul>
-      </nav>
-    </header>
-  </div>
-  
-  <section class="First-Section">
+  <header class="HeaderTag d-flex justify-content-center">
+    <p class="TituloLogo">Vaccination</p>
+    <nav>
+      <ul>
+        <li><a href="">Database</a></li>
+        <li><a href="">Education</a></li>
+        <li><a href="">News</a> </li>
+        <li><a href="">Regulation</a> </li>
+        <li><a href="" class="BotonHeader">Hoax Buster</a> </li>
+
+      </ul>
+    </nav>
+  </header>
+  <section class="First-Section container">
+
     <div class="Container-First-Section">
       <h2 class="Title">Fight Virus With Vaccies</h2>
       <p>Let's stop this pandemic by killing the virus with a vaccine,
@@ -52,13 +48,33 @@
         </div>
       </div>
 
-      <div>
-
-
-
+      <div class="Subcontainer-small-text">
+        <span class="material-icons">
+          watch_later
+        </span>
+        <p>Schedule your vaccinations</p>
       </div>
 
     </div>
+
+    <div class="Container-Options">
+      <div class="Option">
+        <div class="SubOption"> <span class="material-icons">place</span> <p> Location</p> </div>
+        <div class="Container-lbl"> <label class="lbl-Option">Jakarta Utara</label></div>
+      </div>
+
+      <div class="Option">
+       <div class="SubOption"> <span class="material-icons">date_range</span><p>Date </p> </div>
+        <div class="Container-lbl"><label class="lbl-Option">08 July 2021</label></div>
+      </div>
+
+      <div class="Option">
+        <div class="SubOption"><span class="material-icons">drive_file_rename_outline</span> <p>Vaccine Type</p> </div>
+        <div class="Container-lbl"><label class="lbl-Option">Moderna</label></div>
+      </div>
+      <button class="BotonHeader">Submit</button>
+    </div>
+
     <div>
       <img src="" alt="">
     </div>
